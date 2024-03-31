@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+  <ui bgImage="Resources/background.jpg" width="812" height="375" layoutMode="relative" bgMode="top_left">
+    <keyboard>
+      <color loNote="0" hiNote="35" color="FFFEFEFF"/>
+      <color loNote="36" hiNote="127" color="FF000000"/>
+    </keyboard>
+    <tab name="main">
+      <!-- Dynamics -->
+      <button x="79" y="56" width="60" height="117" style="image" value="0">
+        <state name="dynamics_off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+          <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+          <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+        </state>
+        <state name="dynamics_on" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+          <binding type="general" level="group" position="3" parameter="ENABLED" translation="fixed_value" translationValue="true"/>
+        </state>
+      </button>
+
+      <!-- Saturation -->
+      <control x="197" y="71" width="90" height="90" parameterName="Saturation" minValue="0" maxValue="127" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" groupIndex="0" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="1" translationOutputMax="0"/>
+        <binding type="amp" level="group" groupIndex="1" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1"/>
+        <binding type="amp" level="group" groupIndex="3" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1"/>
+        
+        <binding type="amp" level="group" groupIndex="2" parameter="AMP_VEL_TRACK" modBehavior="set" translation="linear" translationOutputMin="1" translationOutputMax="0"/>
+        
+        <binding type="effect" level="group" groupIndex="1" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="22000"/>
+        <binding type="effect" level="group" groupIndex="2" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="22000"/>
+      </control>
+
+
+      <!-- Envelope -->
+      <control x="340" y="71" width="90" height="90" parameterName="Attack" type="float" minValue="0" maxValue="0.5" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" parameter="ENV_ATTACK" />
+        <binding type="amp" level="group" groupIndex="3" parameter="ENV_ATTACK" />
+      </control>
+      <control x="450" y="71" width="90" height="90" parameterName="Decay" type="float" minValue="0.02" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" parameter="ENV_DECAY" />
+        <binding type="amp" level="group" groupIndex="3" parameter="ENV_DECAY" />
+      </control>
+      <control x="560" y="71" width="90" height="90" parameterName="Sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" parameter="ENV_SUSTAIN" />
+        <binding type="amp" level="group" groupIndex="3" parameter="ENV_SUSTAIN" />
+      </control>
+      <control x="670" y="71" width="90" height="90" parameterName="Release" type="float" minValue="0.07" maxValue="0.5" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" parameter="ENV_RELEASE" />
+        <binding type="amp" level="group" groupIndex="3" parameter="ENV_RELEASE" />
+      </control>
+
+    </tab>
+  </ui>
+  <groups attack="0.000" attackCurve="-25" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume="1">
+    <group tags="monophonic-clean" silencingMode="normal" ampVelTrack="0">
+      <sample loNote="0"  hiNote="0"   rootNote="0"  path="Samples/Stereo/Clean/SubC_Stereo_-2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="1"  hiNote="1"   rootNote="1"  path="Samples/Stereo/Clean/SubC_Stereo_-2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="2"  hiNote="2"   rootNote="2"  path="Samples/Stereo/Clean/SubC_Stereo_-2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="3"  hiNote="3"   rootNote="3"  path="Samples/Stereo/Clean/SubC_Stereo_-2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="4"  hiNote="4"   rootNote="4"  path="Samples/Stereo/Clean/SubC_Stereo_-2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="5"  hiNote="5"   rootNote="5"  path="Samples/Stereo/Clean/SubC_Stereo_-2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="6"  hiNote="6"   rootNote="6"  path="Samples/Stereo/Clean/SubC_Stereo_-2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="7"  hiNote="7"   rootNote="7"  path="Samples/Stereo/Clean/SubC_Stereo_-2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="8"  hiNote="8"   rootNote="8"  path="Samples/Stereo/Clean/SubC_Stereo_-2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="9"  hiNote="9"   rootNote="9"  path="Samples/Stereo/Clean/SubC_Stereo_-2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="10" hiNote="10"  rootNote="10" path="Samples/Stereo/Clean/SubC_Stereo_-2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="11" hiNote="11"  rootNote="11" path="Samples/Stereo/Clean/SubC_Stereo_-2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="12" hiNote="12"  rootNote="12" path="Samples/Stereo/Clean/SubC_Stereo_-1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="13" hiNote="13"  rootNote="13" path="Samples/Stereo/Clean/SubC_Stereo_-1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="14" hiNote="14"  rootNote="14" path="Samples/Stereo/Clean/SubC_Stereo_-1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="15" hiNote="15"  rootNote="15" path="Samples/Stereo/Clean/SubC_Stereo_-1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="16" hiNote="16"  rootNote="16" path="Samples/Stereo/Clean/SubC_Stereo_-1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="17" hiNote="17"  rootNote="17" path="Samples/Stereo/Clean/SubC_Stereo_-1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="18" hiNote="18"  rootNote="18" path="Samples/Stereo/Clean/SubC_Stereo_-1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="19" hiNote="19"  rootNote="19" path="Samples/Stereo/Clean/SubC_Stereo_-1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="20" hiNote="20"  rootNote="20" path="Samples/Stereo/Clean/SubC_Stereo_-1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="21" hiNote="21"  rootNote="21" path="Samples/Stereo/Clean/SubC_Stereo_-1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="22" hiNote="22"  rootNote="22" path="Samples/Stereo/Clean/SubC_Stereo_-1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="23" hiNote="23"  rootNote="23" path="Samples/Stereo/Clean/SubC_Stereo_-1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/Stereo/Clean/SubC_Stereo_0C.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/Stereo/Clean/SubC_Stereo_0C#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/Stereo/Clean/SubC_Stereo_0D.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/Stereo/Clean/SubC_Stereo_0D#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/Stereo/Clean/SubC_Stereo_0E.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/Stereo/Clean/SubC_Stereo_0F.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/Stereo/Clean/SubC_Stereo_0F#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/Stereo/Clean/SubC_Stereo_0G.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/Stereo/Clean/SubC_Stereo_0G#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/Stereo/Clean/SubC_Stereo_0A.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/Stereo/Clean/SubC_Stereo_0A#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/Stereo/Clean/SubC_Stereo_0B.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="monophonic-dist" silencingMode="normal" ampVelTrack="0">
+      <effects>
+        <effect type="lowpass" resonance="0.5" frequency="22000" />
+      </effects>
+      <sample loNote="0"  hiNote="0"   rootNote="0"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="1"  hiNote="1"   rootNote="1"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="2"  hiNote="2"   rootNote="2"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="3"  hiNote="3"   rootNote="3"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="4"  hiNote="4"   rootNote="4"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="5"  hiNote="5"   rootNote="5"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="6"  hiNote="6"   rootNote="6"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="7"  hiNote="7"   rootNote="7"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="8"  hiNote="8"   rootNote="8"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="9"  hiNote="9"   rootNote="9"  path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="10" hiNote="10"  rootNote="10" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="11" hiNote="11"  rootNote="11" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="12" hiNote="12"  rootNote="12" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="13" hiNote="13"  rootNote="13" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="14" hiNote="14"  rootNote="14" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="15" hiNote="15"  rootNote="15" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="16" hiNote="16"  rootNote="16" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="17" hiNote="17"  rootNote="17" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="18" hiNote="18"  rootNote="18" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="19" hiNote="19"  rootNote="19" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="20" hiNote="20"  rootNote="20" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="21" hiNote="21"  rootNote="21" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="22" hiNote="22"  rootNote="22" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="23" hiNote="23"  rootNote="23" path="Samples/Stereo/Dist/SubC_Dist_Stereo_-1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0C.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0C#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0D.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0D#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0E.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0F.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0F#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0G.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0G#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0A.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0A#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/Stereo/Dist/SubC_Dist_Stereo_0B.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="monophonic-clean-dyn" silencingMode="normal" ampVelTrack="0">
+      <sample loNote="0"  hiNote="0"   rootNote="0"  path="Samples/Stereo/Clean/SubC_Stereo_-2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="1"  hiNote="1"   rootNote="1"  path="Samples/Stereo/Clean/SubC_Stereo_-2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="2"  hiNote="2"   rootNote="2"  path="Samples/Stereo/Clean/SubC_Stereo_-2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="3"  hiNote="3"   rootNote="3"  path="Samples/Stereo/Clean/SubC_Stereo_-2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="4"  hiNote="4"   rootNote="4"  path="Samples/Stereo/Clean/SubC_Stereo_-2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="5"  hiNote="5"   rootNote="5"  path="Samples/Stereo/Clean/SubC_Stereo_-2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="6"  hiNote="6"   rootNote="6"  path="Samples/Stereo/Clean/SubC_Stereo_-2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="7"  hiNote="7"   rootNote="7"  path="Samples/Stereo/Clean/SubC_Stereo_-2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="8"  hiNote="8"   rootNote="8"  path="Samples/Stereo/Clean/SubC_Stereo_-2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="9"  hiNote="9"   rootNote="9"  path="Samples/Stereo/Clean/SubC_Stereo_-2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="10" hiNote="10"  rootNote="10" path="Samples/Stereo/Clean/SubC_Stereo_-2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="11" hiNote="11"  rootNote="11" path="Samples/Stereo/Clean/SubC_Stereo_-2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="12" hiNote="12"  rootNote="12" path="Samples/Stereo/Clean/SubC_Stereo_-1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="13" hiNote="13"  rootNote="13" path="Samples/Stereo/Clean/SubC_Stereo_-1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="14" hiNote="14"  rootNote="14" path="Samples/Stereo/Clean/SubC_Stereo_-1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="15" hiNote="15"  rootNote="15" path="Samples/Stereo/Clean/SubC_Stereo_-1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="16" hiNote="16"  rootNote="16" path="Samples/Stereo/Clean/SubC_Stereo_-1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="17" hiNote="17"  rootNote="17" path="Samples/Stereo/Clean/SubC_Stereo_-1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="18" hiNote="18"  rootNote="18" path="Samples/Stereo/Clean/SubC_Stereo_-1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="19" hiNote="19"  rootNote="19" path="Samples/Stereo/Clean/SubC_Stereo_-1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="20" hiNote="20"  rootNote="20" path="Samples/Stereo/Clean/SubC_Stereo_-1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="21" hiNote="21"  rootNote="21" path="Samples/Stereo/Clean/SubC_Stereo_-1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="22" hiNote="22"  rootNote="22" path="Samples/Stereo/Clean/SubC_Stereo_-1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="23" hiNote="23"  rootNote="23" path="Samples/Stereo/Clean/SubC_Stereo_-1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/Stereo/Clean/SubC_Stereo_0C.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/Stereo/Clean/SubC_Stereo_0C#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/Stereo/Clean/SubC_Stereo_0D.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/Stereo/Clean/SubC_Stereo_0D#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/Stereo/Clean/SubC_Stereo_0E.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/Stereo/Clean/SubC_Stereo_0F.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/Stereo/Clean/SubC_Stereo_0F#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/Stereo/Clean/SubC_Stereo_0G.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/Stereo/Clean/SubC_Stereo_0G#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/Stereo/Clean/SubC_Stereo_0A.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/Stereo/Clean/SubC_Stereo_0A#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/Stereo/Clean/SubC_Stereo_0B.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="monophonic-dist-dyn" silencingMode="normal" ampVelTrack="1">
+      <effects>
+        <effect type="lowpass" resonance="0.5" frequency="22000" />
+      </effects>
+      <sample loNote="0"  hiNote="0"   rootNote="0"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="1"  hiNote="1"   rootNote="1"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="2"  hiNote="2"   rootNote="2"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="3"  hiNote="3"   rootNote="3"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="4"  hiNote="4"   rootNote="4"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="5"  hiNote="5"   rootNote="5"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="6"  hiNote="6"   rootNote="6"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="7"  hiNote="7"   rootNote="7"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="8"  hiNote="8"   rootNote="8"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="9"  hiNote="9"   rootNote="9"  path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="10" hiNote="10"  rootNote="10" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="11" hiNote="11"  rootNote="11" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-2B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="12" hiNote="12"  rootNote="12" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="13" hiNote="13"  rootNote="13" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="14" hiNote="14"  rootNote="14" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="15" hiNote="15"  rootNote="15" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="16" hiNote="16"  rootNote="16" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="17" hiNote="17"  rootNote="17" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="18" hiNote="18"  rootNote="18" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="19" hiNote="19"  rootNote="19" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="20" hiNote="20"  rootNote="20" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="21" hiNote="21"  rootNote="21" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="22" hiNote="22"  rootNote="22" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="23" hiNote="23"  rootNote="23" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_-1B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="24" hiNote="24"  rootNote="24" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0C.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="25" hiNote="25"  rootNote="25" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0C#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="26" hiNote="26"  rootNote="26" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0D.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="27" hiNote="27"  rootNote="27" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0D#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="28" hiNote="28"  rootNote="28" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0E.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="29" hiNote="29"  rootNote="29" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0F.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="30" hiNote="30"  rootNote="30" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0F#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="31" hiNote="31"  rootNote="31" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0G.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="32" hiNote="32"  rootNote="32" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0G#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="33" hiNote="33"  rootNote="33" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0A.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="34" hiNote="34"  rootNote="34" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0A#.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample loNote="35" hiNote="35"  rootNote="35" path="Samples/Stereo/DistHPF/SubC_Dist_HPF_Stereo_0B.wav"   sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+  </groups>
+  <effects>
+  </effects>
+  <modulators>
+  </modulators>
+  <midi>
+    <cc number="1">
+      <binding level="ui" type="control" position="1" parameter="VALUE" translation="linear" translationOutputMin="0" translationOutputMax="127"/>
+    </cc>
+  </midi>
+  <tags>
+    <tag name="monophonic-clean" polyphony="1" />
+    <tag name="monophonic-dist" polyphony="1" />
+    <tag name="monophonic-clean-dyn" polyphony="1" />
+    <tag name="monophonic-dist-dyn" polyphony="1" />
+  </tags>
+</DecentSampler>
