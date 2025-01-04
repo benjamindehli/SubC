@@ -4,11 +4,17 @@ Date: 2024-03-31
 
 Name: Benjamin Dehli
 
-Profile: [pianobook.co.uk/profile/benjamindehli][Pianobook profile]
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
 - Decent Sampler
+
+## Release notes
+
+### Version 1.0 (2024-03-31)
+
+- First version released
 
 ## Description
 
@@ -70,7 +76,7 @@ Shape your sound precisely with the Attack, Decay, Sustain, and Release paramete
 | [Alex Franklinos Stereo Transformer Saturator][Alex Franklinos Stereo Transformer Saturator] | ![Alex Franklinos Stereo Transformer Saturator](/Equipment/alex-franklinos-stereo-transformer-saturator.jpg) |
 |      [TC Electronic SCF Stereo Chorus Flanger][TC Electronic SCF Stereo Chorus Flanger]      |      ![TC Electronic SCF Stereo Chorus Flanger](/Equipment/tc-electronic-scf-stereo-chorus-flanger.jpg)      |
 
-[Pianobook profile]: https://www.pianobook.co.uk/profile/benjamindehli/
+[Gumroad profile]: https://store.dehlimusikk.no/
 [Dreadbox Erebus v2]: https://www.dehlimusikk.no/equipment/instruments/dreadbox-erebus-v2/
 [Roland PA-120]: https://www.dehlimusikk.no/posts/ny-mikser-roland-pa-120/
 [Hairball Audio FET/RACK Revision D]: https://www.dehlimusikk.no/equipment/effects/hairball-audio-fet-rack-revision-d/
