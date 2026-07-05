@@ -1,0 +1,1927 @@
+{
+  "name": "SubC (Stereo)",
+  "amp": {
+    "attack": 0.0,
+    "decay": 0.0,
+    "sustain": 1.0,
+    "release": 0.07,
+    "volume": 1.0,
+    "velTrack": 0.0,
+    "enabled": true,
+    "attackCurve": -25.0,
+    "decayCurve": 100.0,
+    "releaseCurve": 100.0
+  },
+  "tags": [
+    {
+      "name": "monophonic-clean",
+      "polyphony": 1
+    },
+    {
+      "name": "monophonic-dist",
+      "polyphony": 1
+    },
+    {
+      "name": "monophonic-clean-dyn",
+      "polyphony": 1
+    },
+    {
+      "name": "monophonic-dist-dyn",
+      "polyphony": 1
+    }
+  ],
+  "groups": [
+    {
+      "uid": "grp_0",
+      "tags": [
+        "monophonic-clean"
+      ],
+      "silencing": {
+        "mode": "normal"
+      },
+      "velTrack": 0.0,
+      "samples": [
+        {
+          "source": "flac:SubC_Stereo_-2C",
+          "loNote": 0,
+          "hiNote": 0,
+          "rootNote": 0,
+          "lengthFrames": 1008047,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2C#",
+          "loNote": 1,
+          "hiNote": 1,
+          "rootNote": 1,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2D",
+          "loNote": 2,
+          "hiNote": 2,
+          "rootNote": 2,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2D#",
+          "loNote": 3,
+          "hiNote": 3,
+          "rootNote": 3,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2E",
+          "loNote": 4,
+          "hiNote": 4,
+          "rootNote": 4,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2F",
+          "loNote": 5,
+          "hiNote": 5,
+          "rootNote": 5,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2F#",
+          "loNote": 6,
+          "hiNote": 6,
+          "rootNote": 6,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2G",
+          "loNote": 7,
+          "hiNote": 7,
+          "rootNote": 7,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2G#",
+          "loNote": 8,
+          "hiNote": 8,
+          "rootNote": 8,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2A",
+          "loNote": 9,
+          "hiNote": 9,
+          "rootNote": 9,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2A#",
+          "loNote": 10,
+          "hiNote": 10,
+          "rootNote": 10,
+          "lengthFrames": 1008063,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2B",
+          "loNote": 11,
+          "hiNote": 11,
+          "rootNote": 11,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1C",
+          "loNote": 12,
+          "hiNote": 12,
+          "rootNote": 12,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1C#",
+          "loNote": 13,
+          "hiNote": 13,
+          "rootNote": 13,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1D",
+          "loNote": 14,
+          "hiNote": 14,
+          "rootNote": 14,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1D#",
+          "loNote": 15,
+          "hiNote": 15,
+          "rootNote": 15,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1E",
+          "loNote": 16,
+          "hiNote": 16,
+          "rootNote": 16,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1F",
+          "loNote": 17,
+          "hiNote": 17,
+          "rootNote": 17,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1F#",
+          "loNote": 18,
+          "hiNote": 18,
+          "rootNote": 18,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1G",
+          "loNote": 19,
+          "hiNote": 19,
+          "rootNote": 19,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1G#",
+          "loNote": 20,
+          "hiNote": 20,
+          "rootNote": 20,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1A",
+          "loNote": 21,
+          "hiNote": 21,
+          "rootNote": 21,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1A#",
+          "loNote": 22,
+          "hiNote": 22,
+          "rootNote": 22,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1B",
+          "loNote": 23,
+          "hiNote": 23,
+          "rootNote": 23,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0C",
+          "loNote": 24,
+          "hiNote": 24,
+          "rootNote": 24,
+          "lengthFrames": 1008063,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0C#",
+          "loNote": 25,
+          "hiNote": 25,
+          "rootNote": 25,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0D",
+          "loNote": 26,
+          "hiNote": 26,
+          "rootNote": 26,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0D#",
+          "loNote": 27,
+          "hiNote": 27,
+          "rootNote": 27,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0E",
+          "loNote": 28,
+          "hiNote": 28,
+          "rootNote": 28,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0F",
+          "loNote": 29,
+          "hiNote": 29,
+          "rootNote": 29,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0F#",
+          "loNote": 30,
+          "hiNote": 30,
+          "rootNote": 30,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0G",
+          "loNote": 31,
+          "hiNote": 31,
+          "rootNote": 31,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0G#",
+          "loNote": 32,
+          "hiNote": 32,
+          "rootNote": 32,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0A",
+          "loNote": 33,
+          "hiNote": 33,
+          "rootNote": 33,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0A#",
+          "loNote": 34,
+          "hiNote": 34,
+          "rootNote": 34,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0B",
+          "loNote": 35,
+          "hiNote": 35,
+          "rootNote": 35,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "uid": "grp_1",
+      "tags": [
+        "monophonic-dist"
+      ],
+      "silencing": {
+        "mode": "normal"
+      },
+      "velTrack": 0.0,
+      "effects": [
+        {
+          "type": "lowpass",
+          "enabled": true,
+          "frequency": 22000.0,
+          "resonance": 0.5
+        }
+      ],
+      "samples": [
+        {
+          "source": "flac:SubC_Dist_Stereo_-2C",
+          "loNote": 0,
+          "hiNote": 0,
+          "rootNote": 0,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2C#",
+          "loNote": 1,
+          "hiNote": 1,
+          "rootNote": 1,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2D",
+          "loNote": 2,
+          "hiNote": 2,
+          "rootNote": 2,
+          "lengthFrames": 1008024,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2D#",
+          "loNote": 3,
+          "hiNote": 3,
+          "rootNote": 3,
+          "lengthFrames": 1008053,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2E",
+          "loNote": 4,
+          "hiNote": 4,
+          "rootNote": 4,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2F",
+          "loNote": 5,
+          "hiNote": 5,
+          "rootNote": 5,
+          "lengthFrames": 1008048,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2F#",
+          "loNote": 6,
+          "hiNote": 6,
+          "rootNote": 6,
+          "lengthFrames": 1008025,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2G",
+          "loNote": 7,
+          "hiNote": 7,
+          "rootNote": 7,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2G#",
+          "loNote": 8,
+          "hiNote": 8,
+          "rootNote": 8,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2A",
+          "loNote": 9,
+          "hiNote": 9,
+          "rootNote": 9,
+          "lengthFrames": 1008034,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2A#",
+          "loNote": 10,
+          "hiNote": 10,
+          "rootNote": 10,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-2B",
+          "loNote": 11,
+          "hiNote": 11,
+          "rootNote": 11,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1C",
+          "loNote": 12,
+          "hiNote": 12,
+          "rootNote": 12,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1C#",
+          "loNote": 13,
+          "hiNote": 13,
+          "rootNote": 13,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1D",
+          "loNote": 14,
+          "hiNote": 14,
+          "rootNote": 14,
+          "lengthFrames": 1008051,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1D#",
+          "loNote": 15,
+          "hiNote": 15,
+          "rootNote": 15,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1E",
+          "loNote": 16,
+          "hiNote": 16,
+          "rootNote": 16,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1F",
+          "loNote": 17,
+          "hiNote": 17,
+          "rootNote": 17,
+          "lengthFrames": 1008049,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1F#",
+          "loNote": 18,
+          "hiNote": 18,
+          "rootNote": 18,
+          "lengthFrames": 1008053,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1G",
+          "loNote": 19,
+          "hiNote": 19,
+          "rootNote": 19,
+          "lengthFrames": 1008036,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1G#",
+          "loNote": 20,
+          "hiNote": 20,
+          "rootNote": 20,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1A",
+          "loNote": 21,
+          "hiNote": 21,
+          "rootNote": 21,
+          "lengthFrames": 1008039,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1A#",
+          "loNote": 22,
+          "hiNote": 22,
+          "rootNote": 22,
+          "lengthFrames": 1008048,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_-1B",
+          "loNote": 23,
+          "hiNote": 23,
+          "rootNote": 23,
+          "lengthFrames": 1008033,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0C",
+          "loNote": 24,
+          "hiNote": 24,
+          "rootNote": 24,
+          "lengthFrames": 1008026,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0C#",
+          "loNote": 25,
+          "hiNote": 25,
+          "rootNote": 25,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0D",
+          "loNote": 26,
+          "hiNote": 26,
+          "rootNote": 26,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0D#",
+          "loNote": 27,
+          "hiNote": 27,
+          "rootNote": 27,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0E",
+          "loNote": 28,
+          "hiNote": 28,
+          "rootNote": 28,
+          "lengthFrames": 1008058,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0F",
+          "loNote": 29,
+          "hiNote": 29,
+          "rootNote": 29,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0F#",
+          "loNote": 30,
+          "hiNote": 30,
+          "rootNote": 30,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0G",
+          "loNote": 31,
+          "hiNote": 31,
+          "rootNote": 31,
+          "lengthFrames": 1008053,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0G#",
+          "loNote": 32,
+          "hiNote": 32,
+          "rootNote": 32,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0A",
+          "loNote": 33,
+          "hiNote": 33,
+          "rootNote": 33,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0A#",
+          "loNote": 34,
+          "hiNote": 34,
+          "rootNote": 34,
+          "lengthFrames": 1008031,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_Stereo_0B",
+          "loNote": 35,
+          "hiNote": 35,
+          "rootNote": 35,
+          "lengthFrames": 1008043,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "uid": "grp_2",
+      "tags": [
+        "monophonic-clean-dyn"
+      ],
+      "silencing": {
+        "mode": "normal"
+      },
+      "velTrack": 0.0,
+      "samples": [
+        {
+          "source": "flac:SubC_Stereo_-2C",
+          "loNote": 0,
+          "hiNote": 0,
+          "rootNote": 0,
+          "lengthFrames": 1008047,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2C#",
+          "loNote": 1,
+          "hiNote": 1,
+          "rootNote": 1,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2D",
+          "loNote": 2,
+          "hiNote": 2,
+          "rootNote": 2,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2D#",
+          "loNote": 3,
+          "hiNote": 3,
+          "rootNote": 3,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2E",
+          "loNote": 4,
+          "hiNote": 4,
+          "rootNote": 4,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2F",
+          "loNote": 5,
+          "hiNote": 5,
+          "rootNote": 5,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2F#",
+          "loNote": 6,
+          "hiNote": 6,
+          "rootNote": 6,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2G",
+          "loNote": 7,
+          "hiNote": 7,
+          "rootNote": 7,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2G#",
+          "loNote": 8,
+          "hiNote": 8,
+          "rootNote": 8,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2A",
+          "loNote": 9,
+          "hiNote": 9,
+          "rootNote": 9,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2A#",
+          "loNote": 10,
+          "hiNote": 10,
+          "rootNote": 10,
+          "lengthFrames": 1008063,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-2B",
+          "loNote": 11,
+          "hiNote": 11,
+          "rootNote": 11,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1C",
+          "loNote": 12,
+          "hiNote": 12,
+          "rootNote": 12,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1C#",
+          "loNote": 13,
+          "hiNote": 13,
+          "rootNote": 13,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1D",
+          "loNote": 14,
+          "hiNote": 14,
+          "rootNote": 14,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1D#",
+          "loNote": 15,
+          "hiNote": 15,
+          "rootNote": 15,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1E",
+          "loNote": 16,
+          "hiNote": 16,
+          "rootNote": 16,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1F",
+          "loNote": 17,
+          "hiNote": 17,
+          "rootNote": 17,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1F#",
+          "loNote": 18,
+          "hiNote": 18,
+          "rootNote": 18,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1G",
+          "loNote": 19,
+          "hiNote": 19,
+          "rootNote": 19,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1G#",
+          "loNote": 20,
+          "hiNote": 20,
+          "rootNote": 20,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1A",
+          "loNote": 21,
+          "hiNote": 21,
+          "rootNote": 21,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1A#",
+          "loNote": 22,
+          "hiNote": 22,
+          "rootNote": 22,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_-1B",
+          "loNote": 23,
+          "hiNote": 23,
+          "rootNote": 23,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0C",
+          "loNote": 24,
+          "hiNote": 24,
+          "rootNote": 24,
+          "lengthFrames": 1008063,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0C#",
+          "loNote": 25,
+          "hiNote": 25,
+          "rootNote": 25,
+          "lengthFrames": 1008061,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0D",
+          "loNote": 26,
+          "hiNote": 26,
+          "rootNote": 26,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0D#",
+          "loNote": 27,
+          "hiNote": 27,
+          "rootNote": 27,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0E",
+          "loNote": 28,
+          "hiNote": 28,
+          "rootNote": 28,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0F",
+          "loNote": 29,
+          "hiNote": 29,
+          "rootNote": 29,
+          "lengthFrames": 1008056,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0F#",
+          "loNote": 30,
+          "hiNote": 30,
+          "rootNote": 30,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0G",
+          "loNote": 31,
+          "hiNote": 31,
+          "rootNote": 31,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0G#",
+          "loNote": 32,
+          "hiNote": 32,
+          "rootNote": 32,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0A",
+          "loNote": 33,
+          "hiNote": 33,
+          "rootNote": 33,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0A#",
+          "loNote": 34,
+          "hiNote": 34,
+          "rootNote": 34,
+          "lengthFrames": 1008069,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Stereo_0B",
+          "loNote": 35,
+          "hiNote": 35,
+          "rootNote": 35,
+          "lengthFrames": 1008066,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "uid": "grp_3",
+      "tags": [
+        "monophonic-dist-dyn"
+      ],
+      "silencing": {
+        "mode": "normal"
+      },
+      "velTrack": 1.0,
+      "effects": [
+        {
+          "type": "lowpass",
+          "enabled": true,
+          "frequency": 22000.0,
+          "resonance": 0.5
+        }
+      ],
+      "samples": [
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2C",
+          "loNote": 0,
+          "hiNote": 0,
+          "rootNote": 0,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2C#",
+          "loNote": 1,
+          "hiNote": 1,
+          "rootNote": 1,
+          "lengthFrames": 1008026,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2D",
+          "loNote": 2,
+          "hiNote": 2,
+          "rootNote": 2,
+          "lengthFrames": 1008033,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2D#",
+          "loNote": 3,
+          "hiNote": 3,
+          "rootNote": 3,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2E",
+          "loNote": 4,
+          "hiNote": 4,
+          "rootNote": 4,
+          "lengthFrames": 1008022,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2F",
+          "loNote": 5,
+          "hiNote": 5,
+          "rootNote": 5,
+          "lengthFrames": 1008063,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2F#",
+          "loNote": 6,
+          "hiNote": 6,
+          "rootNote": 6,
+          "lengthFrames": 1008036,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2G",
+          "loNote": 7,
+          "hiNote": 7,
+          "rootNote": 7,
+          "lengthFrames": 1008024,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2G#",
+          "loNote": 8,
+          "hiNote": 8,
+          "rootNote": 8,
+          "lengthFrames": 1008051,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2A",
+          "loNote": 9,
+          "hiNote": 9,
+          "rootNote": 9,
+          "lengthFrames": 1008053,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2A#",
+          "loNote": 10,
+          "hiNote": 10,
+          "rootNote": 10,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-2B",
+          "loNote": 11,
+          "hiNote": 11,
+          "rootNote": 11,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1C",
+          "loNote": 12,
+          "hiNote": 12,
+          "rootNote": 12,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1C#",
+          "loNote": 13,
+          "hiNote": 13,
+          "rootNote": 13,
+          "lengthFrames": 1008030,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1D",
+          "loNote": 14,
+          "hiNote": 14,
+          "rootNote": 14,
+          "lengthFrames": 1008039,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1D#",
+          "loNote": 15,
+          "hiNote": 15,
+          "rootNote": 15,
+          "lengthFrames": 1008052,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1E",
+          "loNote": 16,
+          "hiNote": 16,
+          "rootNote": 16,
+          "lengthFrames": 1008026,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1F",
+          "loNote": 17,
+          "hiNote": 17,
+          "rootNote": 17,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1F#",
+          "loNote": 18,
+          "hiNote": 18,
+          "rootNote": 18,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1G",
+          "loNote": 19,
+          "hiNote": 19,
+          "rootNote": 19,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1G#",
+          "loNote": 20,
+          "hiNote": 20,
+          "rootNote": 20,
+          "lengthFrames": 1008024,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1A",
+          "loNote": 21,
+          "hiNote": 21,
+          "rootNote": 21,
+          "lengthFrames": 1008051,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1A#",
+          "loNote": 22,
+          "hiNote": 22,
+          "rootNote": 22,
+          "lengthFrames": 1008060,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_-1B",
+          "loNote": 23,
+          "hiNote": 23,
+          "rootNote": 23,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0C",
+          "loNote": 24,
+          "hiNote": 24,
+          "rootNote": 24,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0C#",
+          "loNote": 25,
+          "hiNote": 25,
+          "rootNote": 25,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0D",
+          "loNote": 26,
+          "hiNote": 26,
+          "rootNote": 26,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0D#",
+          "loNote": 27,
+          "hiNote": 27,
+          "rootNote": 27,
+          "lengthFrames": 1008030,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0E",
+          "loNote": 28,
+          "hiNote": 28,
+          "rootNote": 28,
+          "lengthFrames": 1008037,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0F",
+          "loNote": 29,
+          "hiNote": 29,
+          "rootNote": 29,
+          "lengthFrames": 1008026,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0F#",
+          "loNote": 30,
+          "hiNote": 30,
+          "rootNote": 30,
+          "lengthFrames": 1008050,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0G",
+          "loNote": 31,
+          "hiNote": 31,
+          "rootNote": 31,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0G#",
+          "loNote": 32,
+          "hiNote": 32,
+          "rootNote": 32,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0A",
+          "loNote": 33,
+          "hiNote": 33,
+          "rootNote": 33,
+          "lengthFrames": 1008064,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0A#",
+          "loNote": 34,
+          "hiNote": 34,
+          "rootNote": 34,
+          "lengthFrames": 1008042,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        },
+        {
+          "source": "flac:SubC_Dist_HPF_Stereo_0B",
+          "loNote": 35,
+          "hiNote": 35,
+          "rootNote": 35,
+          "lengthFrames": 1008057,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0
+        }
+      ]
+    }
+  ],
+  "ccBindings": [
+    {
+      "cc": 1,
+      "parameter": "AMP_VOLUME",
+      "targetId": "ctl_0",
+      "groupIndex": 0,
+      "controlIndex": 1,
+      "normMin": 0.0,
+      "normMax": 1.0
+    }
+  ],
+  "ui": {
+    "background": "img:background",
+    "width": 812,
+    "height": 375,
+    "cropTop": 48,
+    "layoutMode": "relative",
+    "bgMode": "top_left",
+    "whiteKeyTint": "DD000000",
+    "blackKeyTint": "88FF0000",
+    "tabs": [
+      {
+        "name": "main",
+        "controls": [
+          {
+            "id": "ctl_0",
+            "rect": {
+              "x": 197,
+              "y": 121,
+              "width": 90,
+              "height": 90
+            },
+            "label": "Saturation",
+            "min": 0.0,
+            "max": 127.0,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "controlIndex": 1,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_0",
+                "parameter": "AMP_VOLUME",
+                "translation": "linear",
+                "modBehavior": "set",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0,
+                "groupIndex": 0
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_1",
+                "parameter": "AMP_VOLUME",
+                "translation": "linear",
+                "modBehavior": "set",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
+                "groupIndex": 1
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_3",
+                "parameter": "AMP_VOLUME",
+                "translation": "linear",
+                "modBehavior": "set",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
+                "groupIndex": 3
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_2",
+                "parameter": "AMP_VEL_TRACK",
+                "translation": "linear",
+                "modBehavior": "set",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0,
+                "groupIndex": 2
+              },
+              {
+                "type": "effect",
+                "level": "group",
+                "targetId": "grp_1",
+                "parameter": "FX_FILTER_FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 22000.0,
+                "effectIndex": 0,
+                "groupIndex": 1
+              },
+              {
+                "type": "effect",
+                "level": "group",
+                "targetId": "grp_2",
+                "parameter": "FX_FILTER_FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 22000.0,
+                "effectIndex": 0,
+                "groupIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "ctl_1",
+            "rect": {
+              "x": 340,
+              "y": 121,
+              "width": 90,
+              "height": 90
+            },
+            "label": "Attack",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 0.5,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "controlIndex": 2,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "instrument",
+                "parameter": "ENV_ATTACK"
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_3",
+                "parameter": "ENV_ATTACK",
+                "groupIndex": 3
+              }
+            ]
+          },
+          {
+            "id": "ctl_2",
+            "rect": {
+              "x": 450,
+              "y": 121,
+              "width": 90,
+              "height": 90
+            },
+            "label": "Decay",
+            "valueType": "float",
+            "min": 0.02,
+            "max": 3.0,
+            "value": 2.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "controlIndex": 3,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "instrument",
+                "parameter": "ENV_DECAY"
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_3",
+                "parameter": "ENV_DECAY",
+                "groupIndex": 3
+              }
+            ]
+          },
+          {
+            "id": "ctl_3",
+            "rect": {
+              "x": 560,
+              "y": 121,
+              "width": 90,
+              "height": 90
+            },
+            "label": "Sustain",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "value": 1.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "controlIndex": 4,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "instrument",
+                "parameter": "ENV_SUSTAIN"
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_3",
+                "parameter": "ENV_SUSTAIN",
+                "groupIndex": 3
+              }
+            ]
+          },
+          {
+            "id": "ctl_4",
+            "rect": {
+              "x": 670,
+              "y": 121,
+              "width": 90,
+              "height": 90
+            },
+            "label": "Release",
+            "valueType": "float",
+            "min": 0.07,
+            "max": 0.5,
+            "value": 0.07,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "controlIndex": 5,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "instrument",
+                "parameter": "ENV_RELEASE"
+              },
+              {
+                "type": "amp",
+                "level": "group",
+                "targetId": "grp_3",
+                "parameter": "ENV_RELEASE",
+                "groupIndex": 3
+              }
+            ]
+          }
+        ],
+        "buttons": [
+          {
+            "id": "btn_0",
+            "rect": {
+              "x": 79,
+              "y": 106,
+              "width": 60,
+              "height": 117
+            },
+            "style": "image",
+            "value": 0,
+            "controlIndex": 0,
+            "states": [
+              {
+                "name": "dynamics_off",
+                "mainImage": "img:button_off",
+                "hoverImage": "img:button_off",
+                "clickImage": "img:button_on",
+                "bindings": [
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_0",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 0,
+                    "position": 0,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_1",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 1,
+                    "position": 1,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_2",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 2,
+                    "position": 2,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_3",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 3,
+                    "position": 3,
+                    "translationValue": false
+                  }
+                ]
+              },
+              {
+                "name": "dynamics_on",
+                "mainImage": "img:button_on",
+                "hoverImage": "img:button_on",
+                "clickImage": "img:button_off",
+                "bindings": [
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_0",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 0,
+                    "position": 0,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_1",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 1,
+                    "position": 1,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_2",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 2,
+                    "position": 2,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "general",
+                    "level": "group",
+                    "targetId": "grp_3",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "groupIndex": 3,
+                    "position": 3,
+                    "translationValue": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": []
+      }
+    ],
+    "keyboard": {
+      "colors": [
+        {
+          "loNote": 0,
+          "hiNote": 35,
+          "color": "none"
+        }
+      ]
+    }
+  }
+}

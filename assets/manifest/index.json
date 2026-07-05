@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "format": "dmse-manifest",
+  "library": "SubC",
+  "gainDb": -10.0,
+  "modes": [
+    "subc-stereo",
+    "subc"
+  ]
+}
