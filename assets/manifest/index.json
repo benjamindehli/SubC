@@ -3,6 +3,7 @@
   "format": "dmse-manifest",
   "library": "SubC",
   "gainDb": -10.0,
+  "polySaveDefault": false,
   "modes": [
     "subc-stereo",
     "subc"
