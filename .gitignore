@@ -43,3 +43,7 @@ Testing/
 # Linux release tarballs
 *.tar.gz
 packaging/linux/build/
+
+# DecentSampler audio files
+/DecentSampler/Samples
+/DecentSampler/IR
