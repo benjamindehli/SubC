@@ -1,0 +1,10 @@
+{
+    "gain": -10,
+    "cropTop": { "default": 48 },
+    "whiteKeyTint": "DD000000",
+    "blackKeyTint": "88FF0000",
+    "polySaveDefault": false,
+    "keyboardColors": {
+        "default": [{ "loNote": 0, "hiNote": 35, "color": "none" }]
+    }
+}
