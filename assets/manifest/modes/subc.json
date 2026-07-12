@@ -1640,13 +1640,13 @@
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_2",
+                "targetId": "grp_3",
                 "parameter": "FX_FILTER_FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 22000.0,
                 "effectIndex": 0,
-                "groupIndex": 2
+                "groupIndex": 3
               }
             ]
           },

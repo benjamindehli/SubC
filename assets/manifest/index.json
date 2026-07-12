@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "SubC",
+  "library": "DecentSampler",
   "gainDb": -10.0,
   "polySaveDefault": false,
   "modes": [
