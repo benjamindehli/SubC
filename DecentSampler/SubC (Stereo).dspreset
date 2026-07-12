@@ -31,7 +31,7 @@
         <binding type="amp" level="group" groupIndex="2" parameter="AMP_VEL_TRACK" modBehavior="set" translation="linear" translationOutputMin="1" translationOutputMax="0"/>
         
         <binding type="effect" level="group" groupIndex="1" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="22000"/>
-        <binding type="effect" level="group" groupIndex="2" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="22000"/>
+        <binding type="effect" level="group" groupIndex="3" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="22000"/>
       </control>
 
 
