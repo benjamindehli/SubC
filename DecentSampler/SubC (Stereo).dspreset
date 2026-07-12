@@ -2,7 +2,7 @@
 <DecentSampler>
   <ui bgImage="Resources/background.jpg" width="812" height="375" layoutMode="relative" bgMode="top_left">
     <keyboard>
-      <color loNote="0" hiNote="35" color="FFFEFEFF"/>
+      <color loNote="0" hiNote="35" color="FFFFFFFF"/>
       <color loNote="36" hiNote="127" color="FF000000"/>
     </keyboard>
     <tab name="main">
