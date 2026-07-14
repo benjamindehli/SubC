@@ -1,16 +1,16 @@
-# SubC - Version: [2.0]
+# SubC
 
 A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation circuits and effects.
 
 ## Release notes
 
-### Version 2.0 (upcoming)
+### Version 2.0.0 (upcoming)
 
 - Added a plugin version. See the section "The plugin version".
 - Fixed the groupIndex in the filter binding.
 - Fixed a typo in a keyboard color code.
 
-### Version 1.0 (2024-03-31)
+### Version 1.0.0 (2024-03-31)
 
 - First version released
 
