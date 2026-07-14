@@ -1,10 +1,18 @@
 # SubC - Version: [2.0]
 
-Date: upcoming
+A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation circuits and effects.
 
-Name: Benjamin Dehli
+## Release notes
 
-Profile: [store.dehlimusikk.no][Gumroad profile]
+### Version 2.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Fixed the groupIndex in the filter binding.
+- Fixed a typo in a keyboard color code.
+
+### Version 1.0 (2024-03-31)
+
+- First version released
 
 ## Included formats
 
@@ -24,22 +32,6 @@ On top of that, the plugin version adds:
 
 - Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
 - A velocity curve setting in the settings menu.
-
-## Release notes
-
-### Version 2.0 (upcoming)
-
-- Added a plugin version. See the section "The plugin version".
-- Fixed the groupIndex in the filter binding.
-- Fixed a typo in a keyboard color code.
-
-### Version 1.0 (2024-03-31)
-
-- First version released
-
-## Description
-
-A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation circuits and effects.
 
 ## Technical specification
 
