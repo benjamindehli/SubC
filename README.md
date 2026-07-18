@@ -4,7 +4,7 @@ A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation c
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Fixed the groupIndex in the filter binding.
