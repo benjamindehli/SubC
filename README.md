@@ -37,6 +37,10 @@ On top of that, the plugin version adds:
 - Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
 - A velocity curve setting in the settings menu.
 
+## The Decent Sampler version
+
+This version of SubC is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
 ## Technical specification
 
 |                    | Sample rate | Bit depth | Channels   | Number of files | File size |
@@ -103,6 +107,7 @@ The audio files are not part of this repository, since the samples are a paid pr
 The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
 [Dreadbox Erebus v2]: https://www.dehlimusikk.no/equipment/instruments/dreadbox-erebus-v2/
 [Roland PA-120]: https://www.dehlimusikk.no/posts/ny-mikser-roland-pa-120/
 [Hairball Audio FET/RACK Revision D]: https://www.dehlimusikk.no/equipment/effects/hairball-audio-fet-rack-revision-d/
