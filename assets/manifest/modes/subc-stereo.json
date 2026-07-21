@@ -414,6 +414,7 @@
       "velTrack": 0.0,
       "effects": [
         {
+          "id": "grp_1_fx_lowpass",
           "type": "lowpass",
           "enabled": true,
           "frequency": 22000.0,
@@ -1166,6 +1167,7 @@
       "velTrack": 1.0,
       "effects": [
         {
+          "id": "grp_3_fx_lowpass",
           "type": "lowpass",
           "enabled": true,
           "frequency": 22000.0,
@@ -1541,8 +1543,6 @@
       "cc": 1,
       "parameter": "AMP_VOLUME",
       "targetId": "ctl_0",
-      "groupIndex": 0,
-      "controlIndex": 1,
       "normMin": 0.0,
       "normMax": 1.0
     }
@@ -1590,8 +1590,7 @@
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.0,
-                "groupIndex": 0
+                "translationOutputMax": 0.0
               },
               {
                 "type": "amp",
@@ -1601,8 +1600,7 @@
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 1
+                "translationOutputMax": 1.0
               },
               {
                 "type": "amp",
@@ -1612,8 +1610,7 @@
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 3
+                "translationOutputMax": 1.0
               },
               {
                 "type": "amp",
@@ -1623,30 +1620,25 @@
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.0,
-                "groupIndex": 2
+                "translationOutputMax": 0.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_1",
+                "targetId": "grp_1_fx_lowpass",
                 "parameter": "FX_FILTER_FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 22000.0,
-                "effectIndex": 0,
-                "groupIndex": 1
+                "translationOutputMax": 22000.0
               },
               {
                 "type": "effect",
                 "level": "group",
-                "targetId": "grp_3",
+                "targetId": "grp_3_fx_lowpass",
                 "parameter": "FX_FILTER_FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 22000.0,
-                "effectIndex": 0,
-                "groupIndex": 3
+                "translationOutputMax": 22000.0
               }
             ]
           },
@@ -1682,8 +1674,7 @@
                 "type": "amp",
                 "level": "group",
                 "targetId": "grp_3",
-                "parameter": "ENV_ATTACK",
-                "groupIndex": 3
+                "parameter": "ENV_ATTACK"
               }
             ]
           },
@@ -1719,8 +1710,7 @@
                 "type": "amp",
                 "level": "group",
                 "targetId": "grp_3",
-                "parameter": "ENV_DECAY",
-                "groupIndex": 3
+                "parameter": "ENV_DECAY"
               }
             ]
           },
@@ -1756,8 +1746,7 @@
                 "type": "amp",
                 "level": "group",
                 "targetId": "grp_3",
-                "parameter": "ENV_SUSTAIN",
-                "groupIndex": 3
+                "parameter": "ENV_SUSTAIN"
               }
             ]
           },
@@ -1793,8 +1782,7 @@
                 "type": "amp",
                 "level": "group",
                 "targetId": "grp_3",
-                "parameter": "ENV_RELEASE",
-                "groupIndex": 3
+                "parameter": "ENV_RELEASE"
               }
             ]
           }
@@ -1824,8 +1812,6 @@
                     "targetId": "grp_0",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 0,
-                    "position": 0,
                     "translationValue": true
                   },
                   {
@@ -1834,8 +1820,6 @@
                     "targetId": "grp_1",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 1,
-                    "position": 1,
                     "translationValue": true
                   },
                   {
@@ -1844,8 +1828,6 @@
                     "targetId": "grp_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": false
                   },
                   {
@@ -1854,8 +1836,6 @@
                     "targetId": "grp_3",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": false
                   }
                 ]
@@ -1872,8 +1852,6 @@
                     "targetId": "grp_0",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 0,
-                    "position": 0,
                     "translationValue": false
                   },
                   {
@@ -1882,8 +1860,6 @@
                     "targetId": "grp_1",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 1,
-                    "position": 1,
                     "translationValue": false
                   },
                   {
@@ -1892,8 +1868,6 @@
                     "targetId": "grp_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": true
                   },
                   {
@@ -1902,8 +1876,6 @@
                     "targetId": "grp_3",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": true
                   }
                 ]
