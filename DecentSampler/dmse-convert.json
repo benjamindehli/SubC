@@ -4,6 +4,10 @@
     "whiteKeyTint": "DD000000",
     "blackKeyTint": "88FF0000",
     "polySaveDefault": false,
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "default": [{ "loNote": 0, "hiNote": 35, "color": "none" }]
     }
