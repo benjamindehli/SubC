@@ -1,5 +1,7 @@
 # SubC
 
+**[Product page and documentation](https://benjamindehli.github.io/SubC/)**
+
 A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation circuits and effects.
 
 ## Release notes
