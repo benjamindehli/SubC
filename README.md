@@ -98,8 +98,7 @@ The stereo samples are the same as the mono samples, but sent through a TC Elect
 | :--------------------------------------------------------------: |
 |                Controls for the envelope settings                |
 
-Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters.
-Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
+Attack, decay, sustain and release times for the amplitude envelope.
 
 ## Equipment used
 
