@@ -1,0 +1,197 @@
+# SubC
+
+> SubC: a Dreadbox Erebus v2 triangle oscillator run through saturation circuits and effects, in mono and stereo. For VST3, AU and Decent Sampler.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/SubC/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 2.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 216 files
+- Sample content: 981.5 MB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/SubC/)
+- [SubC at Dehli Musikk](https://www.dehlimusikk.no/en/products/subc/)
+- [Get it](https://store.dehlimusikk.no/l/subc)
+- [Source on GitHub](https://github.com/benjamindehli/SubC)
+- [Sub bass sample library (SubC)](https://benjamindehli.github.io/SubC/video/)
+
+## Video chapters
+
+- [0:00 Mono samples with dynamics (velocity)](https://benjamindehli.github.io/SubC/video/?t=0)
+- [1:25 Mono samples without dynamics (velocity)](https://benjamindehli.github.io/SubC/video/?t=85)
+- [2:56 Stereo samples without dynamics (velocity)](https://benjamindehli.github.io/SubC/video/?t=176)
+
+## Frequently asked questions
+
+### What is SubC?
+
+SubC: a Dreadbox Erebus v2 triangle oscillator run through saturation circuits and effects, in mono and stereo. For VST3, AU and Decent Sampler.
+
+### Which formats does SubC come in?
+
+SubC is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does SubC run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of SubC covers the same instrument.
+
+### Does SubC work in Logic Pro and Ableton Live?
+
+Yes. SubC is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use SubC?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is SubC recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does SubC contain?
+
+216 sample files, 981.5 MB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does SubC cost?
+
+SubC is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download SubC?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/subc.
+
+### Is the source code for SubC available?
+
+Yes. The repository is public at https://github.com/benjamindehli/SubC and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+A Dreadbox Erebus v2 triangle wave oscillator ran through different saturation circuits and effects.
+
+## Release notes
+
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+
+### Version 2.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+- Fixed the groupIndex in the filter binding.
+- Fixed a typo in a keyboard color code.
+
+### Version 1.0.0 (2024-03-31)
+
+- First version released
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version,including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of SubC is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                    | Sample rate | Bit depth | Channels   | Number of files | File size |
+| -----------------: | ----------: | --------: | ---------- | --------------: | --------: |
+|   **Mono samples** |      48 kHz |    24 bit | 1 (mono)   |             108 | 327.30 MB |
+| **Stereo samples** |      48 kHz |    24 bit | 2 (stereo) |             108 | 654.20 MB |
+
+## Instrument presets
+
+- SubC
+  - Preset with mono samples
+- SubC (Stereo)
+  - Preset with stereo samples
+
+## User Interface
+
+| ![Overview](https://benjamindehli.github.io/SubC/img/screenshots-sub-c.webp) |
+| :---------------------------------: |
+|              Overview               |
+
+### Dynamics
+
+| ![Button controls for the dynamics settings](https://benjamindehli.github.io/SubC/img/screenshots-dynamics.webp) |
+| :---------------------------------------------------------------------: |
+|                Button controls for the dynamics settings                |
+
+Determines whether the velocity should affect the volume and distortion.
+
+### Saturation
+
+| ![Controls for the saturation settings](https://benjamindehli.github.io/SubC/img/screenshots-saturation.webp) |
+| :------------------------------------------------------------------: |
+|                 Controls for the saturation settings                 |
+
+The saturation knob blends between the clean samples and the distorted samples.
+The clean samples are recorded through a Roland PA-120 mixer.
+The distorted/saturated samples are additionally sent through a Hairball Audio FET/RACK (1176 compressor) and a transformer and diode saturator.
+The stereo samples are the same as the mono samples, but sent through a TC Electronic SCF Stereo Chorus Flanger in vibrato mode. This gives a much wider sound, but less bottom end when summed to mono.
+
+### Envelope
+
+| ![Controls for the envelope settings](https://benjamindehli.github.io/SubC/img/screenshots-envelope.webp) |
+| :--------------------------------------------------------------: |
+|                Controls for the envelope settings                |
+
+Attack, decay, sustain and release times for the amplitude envelope.
+
+## Equipment used
+
+|                                             Name                                             |                                                    Image                                                     |
+| :------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+|                           [Dreadbox Erebus v2][Dreadbox Erebus v2]                           |                           ![Dreadbox Erebus v2](https://benjamindehli.github.io/SubC/img/equipment-dreadbox-erebus-v2.webp)                           |
+|                                [Roland PA-120][Roland PA-120]                                |                                ![Roland PA-120](https://benjamindehli.github.io/SubC/img/equipment-roland-pa-120.webp)                                |
+|           [Hairball Audio FET/RACK Revision D][Hairball Audio FET/RACK Revision D]           |           ![Hairball Audio FET/RACK Revision D](https://benjamindehli.github.io/SubC/img/equipment-hairball-audio-fet-rack-revision-d.webp)           |
+| [Alex Franklinos Stereo Transformer Saturator][Alex Franklinos Stereo Transformer Saturator] | ![Alex Franklinos Stereo Transformer Saturator](https://benjamindehli.github.io/SubC/img/equipment-alex-franklinos-stereo-transformer-saturator.webp) |
+|      [TC Electronic SCF Stereo Chorus Flanger][TC Electronic SCF Stereo Chorus Flanger]      |      ![TC Electronic SCF Stereo Chorus Flanger](https://benjamindehli.github.io/SubC/img/equipment-tc-electronic-scf-stereo-chorus-flanger.webp)      |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
+[Dreadbox Erebus v2]: https://www.dehlimusikk.no/equipment/instruments/dreadbox-erebus-v2/
+[Roland PA-120]: https://www.dehlimusikk.no/posts/ny-mikser-roland-pa-120/
+[Hairball Audio FET/RACK Revision D]: https://www.dehlimusikk.no/equipment/effects/hairball-audio-fet-rack-revision-d/
+[Alex Franklinos Stereo Transformer Saturator]: https://www.dehlimusikk.no/equipment/effects/alex-franklinos-stereo-transformer-saturator/
+[TC Electronic SCF Stereo Chorus Flanger]: https://www.dehlimusikk.no/equipment/effects/tc-electronic-scf-stereo-chorus-flanger/
