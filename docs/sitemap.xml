@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/SubC/</loc>
     <lastmod>2026-09-17</lastmod>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/screenshots-sub-c.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/screenshots-dynamics.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/screenshots-saturation.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/screenshots-envelope.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/equipment-dreadbox-erebus-v2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/equipment-roland-pa-120.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/equipment-hairball-audio-fet-rack-revision-d.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/equipment-alex-franklinos-stereo-transformer-saturator.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/SubC/img/equipment-tc-electronic-scf-stereo-chorus-flanger.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/SubC/video/</loc>
