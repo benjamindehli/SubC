@@ -1,0 +1,60 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "dynamics.png",
+            "mode": "SubC",
+            "crop": {
+                "x": 28,
+                "y": 56,
+                "width": 144,
+                "height": 156
+            },
+            "overlay": false
+        },
+        {
+            "file": "envelope.png",
+            "mode": "SubC",
+            "crop": {
+                "x": 314,
+                "y": 57,
+                "width": 480,
+                "height": 156
+            },
+            "overlay": false,
+            "set": {
+                "Attack": 0.0,
+                "Decay": 2.0563,
+                "Sustain": 0.335,
+                "Release": 0.1417
+            }
+        },
+        {
+            "file": "saturation.png",
+            "mode": "SubC",
+            "crop": {
+                "x": 171,
+                "y": 57,
+                "width": 144,
+                "height": 156
+            },
+            "overlay": false,
+            "set": {
+                "Saturation": 44.45
+            }
+        },
+        {
+            "file": "sub-c.png",
+            "mode": "SubC",
+            "window": true,
+            "set": {
+                "Saturation": 38.1,
+                "Decay": 1.9073,
+                "Sustain": 0.4167,
+                "Release": 0.1202,
+                "btn_0": 1,
+                "Mod wheel": 40
+            }
+        }
+    ]
+}
