@@ -1792,6 +1792,7 @@
         "buttons": [
           {
             "id": "btn_0",
+            "label": "Dynamics",
             "rect": {
               "x": 79,
               "y": 106,

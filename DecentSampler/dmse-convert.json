@@ -8,6 +8,9 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Dynamics"
+    },
     "keyboardColors": {
         "default": [{ "loNote": 0, "hiNote": 35, "color": "none" }]
     }
