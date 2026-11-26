@@ -6,7 +6,7 @@ A second mode uses stereo versions of the same notes, sent through a TC Electron
 
 A Dynamics switch decides whether velocity drives volume and saturation together, and an ADSR envelope shapes the rest.
 
-216 samples at 48 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+216 samples at 48 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -16,4 +16,4 @@ A Dynamics switch decides whether velocity drives volume and saturation together
 - Mono mode for sub-bass weight; stereo mode through a TC Electronic SCF Stereo Chorus Flanger in vibrato mode.
 - Dynamics switch, where velocity drives both volume and saturation.
 - ADSR envelope.
-- 216 samples at 48 kHz / 24-bit, embedded losslessly (982 MB source library).
+- 216 samples at 48 kHz / 24-bit, stored losslessly (982 MB source library).

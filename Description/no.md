@@ -6,7 +6,7 @@ En ekstra modus bruker stereoversjoner av de samme tonene, sendt gjennom en TC E
 
 En Dynamics-bryter bestemmer om anslaget styrer volum og metning sammen, og en ADSR-envelope former resten.
 
-216 sampler i 48 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+216 sampler i 48 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -16,4 +16,4 @@ En Dynamics-bryter bestemmer om anslaget styrer volum og metning sammen, og en A
 - Mono-modus for tyngde i subbassen, og stereomodus gjennom en TC Electronic SCF Stereo Chorus Flanger i vibratomodus.
 - Dynamics-bryter, der anslaget styrer både volum og metning.
 - ADSR-envelope.
-- 216 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (982 MB kildebibliotek).
+- 216 sampler i 48 kHz / 24 bit, lagret tapsfritt (982 MB kildebibliotek).
